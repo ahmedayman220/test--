@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="الحصول علي نتيجه الصف الاول الثانوي والثاني الثانوي"
+    />
+    <meta
+      name="keywords"
+      content="نتيجه الصف الثاني الثانوي , نتيجه الصف الاول الثانوي"
+    />
+    <title>نتيجتي</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container_section">
+        <div class="all_content">
+          <div class="header">
+            <h2>بوابه الحصول علي الدرجات للصف الاول والثاني الثانوي</h2>
+          </div>
+          <div class="register">
+            <h3>تسجيل البيانات</h3>
+            <div class="User_code_button">
+              <div class="username">
+                <div>
+                  <p>ادخل الاسم رباعي</p>
+                  <span>*</span>
+                </div>
+                <input type="text" name="username" id="username" />
+                <div class="error">
+                  <p>اسم الطالب يجب ان يكون رباعي</p>
+                </div>
+              </div>
+              <div class="code">
+                <div>
+                  <p>ادخل الكود</p>
+                  <span>*</span>
+                </div>
+                <input type="number" name="code" id="code" />
+                <div class="error">
+                  <p>الرقم التعريفي غير صحيح</p>
+                </div>
+              </div>
+              <div class="option">
+                <select name="التشعيب" id="select_option">
+                  <option value="material_2B">علمي</option>
+                  <option value="material_2A">ادبي</option>
+                </select>
+              </div>
+              <button id="btn">احصل علي النتيجه</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="icon">
+          <div class="office">
+            <img src="./images/office.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="loading">
+      <img src="images/loader.gif" alt="" />
+    </div>
+    <div class="model_degree">
+      <div class="model_Content">
+        <div class="model_username"><h2 class="model_username_h2"></h2></div>
+        <div class="table_model">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
