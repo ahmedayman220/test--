@@ -283,7 +283,7 @@ main .all_content .header {
   }
 
 }
-@media (max-width: 320) {
+@media (max-width: 320px) {
   .model_Content {
     flex: 0.9;
   }
