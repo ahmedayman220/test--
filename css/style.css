@@ -254,7 +254,7 @@ main .all_content .header {
 .table_model ul li .degree .item .span-4 .black_ball::before , .table_model ul li .degree .item .span-4 .black_ball::after{
   content: "";
   position: absolute;
-  top: -50%;
+  top: -60%;
   left: -100%;
   background-color: #27331f;
   width: 10px;
@@ -262,20 +262,33 @@ main .all_content .header {
   transform: rotate(45deg);
 }
 .table_model ul li .degree .item .span-4 .black_ball::after {
-  bottom: -50%;
+  bottom: -60%;
   top: unset;
 }
 /* media query */
 @media (max-width: 750px) {
-  main,
+  main section {
+    flex: .9;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px #cdcdcd;
+}
   .model_Content {
     flex: 0.9;
   }
-
   .table_model ul li span {
     flex: 0.4;
   }
   .table_model ul li .degree {
     flex: 0.6;
   }
+}
+@media (max-width: 320) {
+  .model_Content {
+    flex: 0.9;
+  }
+  main section {
+    flex: .9;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px #cdcdcd;
+}
 }
