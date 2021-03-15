@@ -281,18 +281,7 @@ main .all_content .header {
   .table_model ul li .degree {
     flex: 0.6;
   }
-
-}
-@media (max-width: 320px) {
-  .model_Content {
-    flex: 0.9;
-  }
-  main section {
-    flex: .9;
-    border-radius: 10px;
-    box-shadow: 0px 6px 10px #cdcdcd;
-}
-main .all_content .header {
+  main .all_content .header {
   font-size: 10px;
-}
+  }
 }
